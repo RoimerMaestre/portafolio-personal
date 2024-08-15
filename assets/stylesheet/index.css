@@ -454,7 +454,7 @@ span + span {
   height: 45rem;
   margin-bottom: 5rem;
   border-bottom: 2px solid var(--color-very-light-gray);
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 /* Habilidades */
