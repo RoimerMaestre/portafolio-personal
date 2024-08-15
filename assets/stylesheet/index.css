@@ -437,7 +437,7 @@ span + span {
   white-space: pre-line;
   text-align: justify;
   line-height: 2.2rem;
-margin-bottom: 10rem;
+/* margin-bottom: 10rem; */
 }
 
 .container_image-sobreMi {
@@ -451,9 +451,10 @@ margin-bottom: 10rem;
 
 .image_sobreMi {
   width: 55%;
-  height: 40rem;
+  height: 45rem;
   margin-bottom: 5rem;
   border-bottom: 2px solid var(--color-very-light-gray);
+  border-radius: 2rem;
 }
 
 /* Habilidades */
