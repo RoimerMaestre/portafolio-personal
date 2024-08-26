@@ -38,26 +38,26 @@ btn.addEventListener('click', function() {
     }
 });
 
-/* ===== Cambio de idioma ===== */
-// Cambia el idioma del sitio web cargando un archivo JSON con las traducciones y actualizando el texto en la página.
-const changeLanguage = async language => {
-    // Obtiene el archivo JSON que contiene las traducciones para el idioma seleccionado.
-    const requestJson = await fetch(`./languages/${language}.json`);
-    const texts = await requestJson.json();
+// /* ===== Cambio de idioma ===== */
+// // Cambia el idioma del sitio web cargando un archivo JSON con las traducciones y actualizando el texto en la página.
+// const changeLanguage = async language => {
+//     // Obtiene el archivo JSON que contiene las traducciones para el idioma seleccionado.
+//     const requestJson = await fetch(`./languages/${language}.json`);
+//     const texts = await requestJson.json();
 
-    // Actualiza el contenido de los elementos HTML con los textos traducidos.
-    for (const textToChange of textsToChange) {
-        const section = textToChange.dataset.section;  // Obtiene la sección de la traducción.
-        const value = textToChange.dataset.value;  // Obtiene la clave del texto.
+//     // Actualiza el contenido de los elementos HTML con los textos traducidos.
+//     for (const textToChange of textsToChange) {
+//         const section = textToChange.dataset.section;  // Obtiene la sección de la traducción.
+//         const value = textToChange.dataset.value;  // Obtiene la clave del texto.
 
-        textToChange.innerHTML = texts[section][value];  // Actualiza el contenido del elemento.
-    }
-}
+//         textToChange.innerHTML = texts[section][value];  // Actualiza el contenido del elemento.
+//     }
+// }
 
-// Detecta cuando se hace clic en una bandera para cambiar el idioma.
-flagsElement.addEventListener('click', (e) => {
-    changeLanguage(e.target.parentElement.dataset.language);  // Cambia el idioma según la bandera seleccionada.
-});
+// // Detecta cuando se hace clic en una bandera para cambiar el idioma.
+// flagsElement.addEventListener('click', (e) => {
+//     changeLanguage(e.target.parentElement.dataset.language);  // Cambia el idioma según la bandera seleccionada.
+// });
 
 /* ===== Clase activa por secciones ===== */
 // Añade una clase "active" al enlace de navegación correspondiente a la sección visible en la ventana de visualización.

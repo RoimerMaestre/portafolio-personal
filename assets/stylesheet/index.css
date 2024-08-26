@@ -639,9 +639,15 @@ img.logo-sena {
     
 }
 
-.card_JuegoAhorcado {
+/* .card_JuegoAhorcado {
   margin-bottom: 4rem;
+} */
+
+.card_animales-investigacion{
+  object-fit: cover;
+  
 }
+
 
 .card_portafolio {
   margin-bottom: 4rem;
@@ -653,8 +659,10 @@ img.logo-sena {
   border-radius: 20px 20px 0 0;
 }
 
+
 .container_imgCard--proyectos img {
   width: 100%;
+  height: 20rem;
   border-radius: 20px 20px 0 0;
 }
 
