@@ -582,7 +582,7 @@ img.logo-sena {
 }
 
 .cards--formacion p:nth-child(1) {
-  color: var(--color-dark-gray);
+  color: black;
   font-family: "Cooper Hewitt";
   letter-spacing: 0.1rem;
   font-size: 1.8rem;
@@ -591,7 +591,7 @@ img.logo-sena {
 }
 
 .cards--formacion p:nth-child(2) {
-  color: var(--light-grey);
+  color:black;
   font-family: "Cooper Hewitt";
   letter-spacing: 0.1rem;
   font-size: 1.4rem;
@@ -730,7 +730,7 @@ img.logo-sena {
 }
 
 .container_btn--proyectos .btn_demo:hover {
-  background-color: var(--color-dark-gray);
+  background-color: var(--color-light-gray);
   box-shadow: 0px 13px 33px -14px rgba(0, 0, 0, 0.75);
   transition: all 0.4s ease;
 }
